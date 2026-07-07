@@ -1,3 +1,4 @@
+Markdown
 # Automated Credit Management API
 
 A high-performance RESTful API built with FastAPI for automated credit processing, transaction logging, and validation.
@@ -22,3 +23,17 @@ Run this command in your terminal to download the project source code:
 ```bash
 git clone [https://github.com/muzammil64049/fastapi-credit-banking-api.git](https://github.com/muzammil64049/fastapi-credit-banking-api.git)
 cd fastapi-credit-banking-api
+2. Install Dependencies
+Install the required micro-framework frameworks for handling requests and serving the API:
+
+Bash
+pip install fastapi uvicorn
+3. Boot the Application Server
+Execute this command to start the local development environment with auto-reload enabled:
+
+Bash
+uvicorn main:app --reload
+4. Interactive API Testing
+Once the server initializes successfully, open your browser and navigate to the interactive Swagger UI panel to test the available endpoints live:
+
+Interactive Docs Dashboard: http://127.0.0.1:8000/docs
